@@ -1,0 +1,23 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "❤️ Ласкаво просимо на Хрому!",
+      "description": "**Хрома** — повністю україномовний сервер, що тримається на власному боті і має багато цікавих, та унікальних фішок, які ви *можливо* більше ніде не побачите.",
+      "color": 2829617,
+      "fields": [
+        {
+          "name": ":clipboard: Інше",
+          "value": "> :crown: Власник: <@1050301564310528021>\n> :calendar_spiral: Створено: <t:1644830880:D>"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/1186338985749000263/1231188295141031947/image.png?ex=66360c73&is=66239773&hm=9d33e1a55567f718036fc41364774134e48105f256bc582b830c4c8953ed7a5f&"
+      },
+      "thumbnail": {
+        "url": "https://cdn.discordapp.com/attachments/1186338985749000263/1219679710032826408/chroma.png?ex=660c2e3f&is=65f9b93f&hm=103eff6f1f454f2a98347b7b7800fda4a3fd5204f04c26c8202bc48a1b5a6559&"
+      }
+    }
+  ],
+  "attachments": []
+}

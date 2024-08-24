@@ -1,0 +1,14 @@
+{
+    "pig_battles": {},
+    "pig_shop": [
+        "hat:15",
+        "face:5",
+        "eye:9",
+        "deco:1",
+        "face:4",
+        "deco:2",
+        "eye:6",
+        "skin:6"
+    ],
+    "trades": {}
+}

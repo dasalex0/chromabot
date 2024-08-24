@@ -1,0 +1,208 @@
+{
+	"program_name": {
+		"allow-buy": false,
+		"price": 750
+	},
+	"program_topic": {
+		"allow-buy": false,
+		"price": 750
+	},
+	"program_emoji": {
+		"allow-buy": false,
+		"price": 750
+	},
+	"program_cooldown": {
+		"allow-buy": false,
+		"price": 375
+	},
+	"rock": {
+		"allow-buy": false,
+		"allow-sell": true,
+		"name": "Камінь",
+		"icon": "<:rock:1188446824739119155>",
+		"sell-price": 5,
+		"stack-limit": 128,
+		"required_items": {},
+		"allow-trade": true
+	},
+	"iron": {
+		"allow-buy": false,
+		"allow-sell": true,
+		"name": "Залізо",
+		"icon": "<:iron:1188446838387392532>",
+		"sell-price": 15,
+		"stack-limit": 128,
+		"required_items": {},
+		"allow-trade": true
+	},
+	"gold": {
+		"allow-buy": false,
+		"allow-sell": true,
+		"name": "Золото",
+		"icon": "<:gold:1188446835703042068>",
+		"sell-price": 35,
+		"stack-limit": 128,
+		"required_items": {},
+		"allow-trade": true
+	},
+	"diamond": {
+		"allow-buy": false,
+		"allow-sell": true,
+		"name": "Діамант",
+		"icon": "<:diamond:1188446828815990926>",
+		"sell-price": 75,
+		"stack-limit": 128,
+		"required_items": {},
+		"allow-trade": true
+	},
+	"emerald": {
+		"allow-buy": false,
+		"allow-sell": true,
+		"name": "Смарагд",
+		"icon": "<:emerald:1188446831055745054>",
+		"sell-price": 200,
+		"stack-limit": 128,
+		"required_items": {},
+		"allow-trade": true
+	},
+	"energystone": {
+		"allow-buy": false,
+		"allow-sell": true,
+		"name": "Енергетичний камінь",
+		"icon": "<:energystone:1188446833723314176>",
+		"sell-price": 1000,
+		"stack-limit": 128,
+		"required_items": {},
+		"allow-trade": true
+	},
+	"pick": {
+		"allow-buy": true,
+		"allow-sell": true,
+		"name": "Кам'яне кайло",
+		"description": "Початкове кайло.",
+		"icon": "⛏️",
+		"price": 1000,
+		"required_items": {},
+		"script_name": "pick",
+		"stack-limit": 1,
+		"inventory": true
+	},
+	"pick2": {
+		"allow-buy": true,
+		"allow-sell": true,
+		"name": "Залізне кайло",
+		"description": "Кайло, яке добуває трохи більше ресурсів.",
+		"icon": "<:pick2:1188446643767480370>",
+		"price": 1500,
+		"required_items": {},
+		"script_name": "pick2",
+		"stack-limit": 1,
+		"inventory": true
+	},
+	"pick3": {
+		"allow-buy": true,
+		"allow-sell": true,
+		"name": "Діамантове кайло",
+		"description": "Міцне і ефективне кайло.",
+		"icon": "<:pick3:1188446647559131156>",
+		"price": 2200,
+		"required_items": {},
+		"script_name": "pick3",
+		"stack-limit": 1,
+		"inventory": true
+	},
+	"pick4": {
+		"allow-buy": true,
+		"allow-sell": true,
+		"name": "Енергетичне кайло",
+		"description": "Кайло, що заряджене енергокаменями.",
+		"icon": "<:pick4:1188446649249439744>",
+		"price": 4500,
+		"required_items": {
+			"energystone": 3
+		},
+		"script_name": "pick4",
+		"stack-limit": 1,
+		"inventory": true
+	},
+	"pig": {
+		"allow-buy": true,
+		"allow-sell": false,
+		"name": "Свиня",
+		"description": "Ваш особистий домашній улюбленець.",
+		"icon": "🐖",
+		"price": 370,
+		"required_items": {},
+		"script_name": "pig",
+		"stack-limit": 1,
+		"inventory": true,
+		"reply_message": "**Подивитися інформацію - `/pig-info`. Купити скін - `/pig-shop`**"
+	},
+	"pigfood": {
+		"allow-buy": true,
+		"allow-sell": true,
+		"name": "Їжа для свині",
+		"description": "Годуючи свиню, ви можете покращити її статистику.",
+		"icon": "🍿",
+		"price": 40,
+		"sell-price": 40,
+		"required_items": {},
+		"stack-limit": 128,
+		"allow-trade": true,
+		"inventory": true,
+		"reply_message": "**Годувати свиню - `/pig-feed`**"
+	},
+	"program": {
+		"allow-buy": true,
+		"allow-sell": false,
+		"name": "Програма",
+		"description": "Ваш персональний канал, куди ви можете публікувати все що захочете.",
+		"icon": "📢",
+		"price": 4500,
+		"required_items": {},
+		"script_name": "create_program",
+		"stack-limit": 1,
+		"reply_message": "**Ви купили програму. Вона автоматично створилась в низу списку програм.\nНалаштувати її: `/program`**",
+		"inventory": false
+	},
+	"booster_10": {
+		"allow-buy": true,
+		"allow-sell": false,
+		"name": "Бустер рівню +10% | 7 днів",
+		"description": "Більше досвіду при спілкуванні в чаті.",
+		"icon": "🚀",
+		"price": 3500,
+		"expire_time": 604800,
+		"required_items": {},
+		"script_name": "booster_10",
+		"stack-limit": 1,
+		"inventory": true,
+		"reply_message": "**Ви купили бустер рівню. Тепер при спілкуванні в чаті, вам буде даватися більше досвіду.**"
+	},
+	"booster_20": {
+		"allow-buy": true,
+		"allow-sell": false,
+		"name": "Бустер рівню +20% | 7 днів",
+		"description": "Більше досвіду при спілкуванні в чаті.",
+		"icon": "🚀",
+		"price": 5000,
+		"expire_time": 604800,
+		"required_items": {},
+		"script_name": "booster_20",
+		"stack-limit": 1,
+		"inventory": true,
+		"reply_message": "**Ви купили бустер рівню. Тепер при спілкуванні в чаті, вам буде даватися більше досвіду.**"
+	},
+	"custom_color": {
+		"allow-buy": true,
+		"allow-sell": false,
+		"name": "Власний колір",
+		"description": "Кастомний колір нікнейму.",
+		"icon": "🎨",
+		"price": 2500,
+		"required_items": {},
+		"stack-limit": 1,
+		"inventory": true,
+		"reply_message": "**Командою `/color` можна змінити його.\n`/color-remove` - прибрати.**"
+	}
+}

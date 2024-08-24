@@ -1,0 +1,28 @@
+{
+    "week_time": [
+        15,
+        4
+    ],
+    "minigames": {
+        "LastCounter": 0,
+        "Count": 1,
+        "LastCountMessage": 0,
+        "LastWorder": 0,
+        "Letter": "а",
+        "LastWordMessage": 0
+    },
+    "reminders": {
+        "ceservers": {
+            "time": 0,
+            "sended": true
+        },
+        "disflip": {
+            "time": 0,
+            "sended": true
+        },
+        "disboard": {
+            "time": 0,
+            "sended": true
+        }
+    }
+}
